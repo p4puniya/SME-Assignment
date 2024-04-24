@@ -4,7 +4,8 @@
 #include "../../header/Powerup/PowerupConfig.h"
 #include "../../header/Player/PlayerModel.h"
 #include "../../header/Player/PlayerView.h"
-
+class PlayerView;
+class PlayerModel;
 namespace Player
 {
     class PlayerController : public Collision::ICollider
